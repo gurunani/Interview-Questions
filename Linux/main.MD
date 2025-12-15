@@ -1,12 +1,11 @@
 ````md
 # Linux Interview Questions, Answers, Commands, and Explanations
 
-Based on the video provided, here are the Linux interview questions, answers, commands, and explanations exactly as they appear in the presentation.
-
----
 
 ### 1. Q: How do you list hidden files in a directory?
+
 **A:**
+
 ```bash
 ls -la
 ````
