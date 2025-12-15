@@ -1,4 +1,4 @@
-````md
+
 # Linux Interview Questions, Answers, Commands, and Explanations
 
 
