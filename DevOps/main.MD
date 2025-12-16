@@ -2,7 +2,7 @@
 ### 1. What are the popular DevOps tools that you use?
 **A:**
 
-```bash
+
 We use following tools for work in DevOps:
  * Jenkins: Jenkins is an open-source automation server used for building, testing, and deploying code. We use Jenkins to create and manage CI/CD pipelines, automating the software delivery process.
  * Terraform: Terraform is an IaC (Infrastructure as Code) tool that allows for the provisioning and management of infrastructure resources. We use Terraform to define and deploy infrastructure in a declarative manner, ensuring consistency across different environments.
@@ -12,7 +12,7 @@ We use following tools for work in DevOps:
  * Prometheus: Prometheus is an open-source monitoring and alerting toolkit designed for reliability and scalability. I use Prometheus to collect and store metrics from various components of the infrastructure, helping to monitor and troubleshoot issues proactively.
  * SonarQube: SonarQube is a platform for continuous inspection of code quality. We use SonarQube to perform static code analysis, identify and fix code quality issues, and ensure the overall health of the codebase.
  * Nexus: Nexus is a repository manager used to store and manage artifacts such as binary components and dependencies. We use Nexus to host and manage artifacts, ensuring a reliable and centralized repository for build artifacts and dependencies.
- ```
+ 
 
 ---
 
