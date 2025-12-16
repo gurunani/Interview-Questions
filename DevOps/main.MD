@@ -1,4 +1,4 @@
-
+## DevOps Interview Questions
 ### 1. What are the popular DevOps tools that you use?
 **A:**
 
@@ -14,6 +14,8 @@ We use following tools for work in DevOps:
  * Nexus: Nexus is a repository manager used to store and manage artifacts such as binary components and dependencies. We use Nexus to host and manage artifacts, ensuring a reliable and centralized repository for build artifacts and dependencies.
  ```
 
+---
+
 ### 2. What are the main benefits of DevOps?
 **A:**
 
@@ -27,6 +29,7 @@ V. Recovery from Failure: In case of a failure, we can recover very fast with De
 VI. Collaboration: With DevOps, collaboration between development and operations professionals increases.
 VII. Performance-oriented: With DevOps, organization follows performance-oriented culture in which teams become more productive and more innovative.
 ```
+---
 ### 3. What is the typical DevOps workflow you use in your organization?
 **A:**
 
@@ -43,6 +46,7 @@ VIII. During Production deployment Docker images are used to deploy same code on
 IX. Once code is deployed to Production, we use Nagios to monitor the health of production servers.
 X. Splunk based alerts inform us of any issues or exceptions in production.
 ```
+---
 ### 4. How do you take the DevOps approach with Amazon Web Services?
 **A:**
 
@@ -51,6 +55,7 @@ Amazon Web Services (AWS) provide many tools and features to deploy and manage a
 I. CloudFormation: We use AWS CloudFormation to create and deploy AWS resources by using templates. We can describe our dependencies and pass special parameters in these templates. CloudFormation can read these templates and deploy the application and resources in AWS cloud.
 II. OpsWorks: AWS provides another service called OpsWorks that is used for configuration management by utilizing Chef framework. We can automate server configuration, deployment and management by using OpsWorks. It helps in managing EC2 instances in AWS as well as any on-premises servers.
 ```
+---
 ### 5. How will you run a script automatically when a developer commits a change into GIT?
 **A:**
 
@@ -61,6 +66,7 @@ I. Client-side hooks
 II. Server-side hooks
 For this case, we can write a Client-side post-commit hook. This hook will execute a custom script in which we can add the message and code that we want to run automatically with each commit.
 ```
+---
 ### 6. What are the main features of AWS OpsWorks Stacks?
 **A:**
 
@@ -72,12 +78,14 @@ III. Dashboard: We can create dashboards in OpsWorks to display the status of al
 IV. Configuration as Code: AWS OpsWorks Stacks are built on the principle of "Configuration as Code". We can define and maintain configurations like application source code. Same configuration can be replicated on multiple servers and environments.
 V. Application Support: OpsWorks supports almost all kinds of applications. So it is universal in nature.
 ```
+---
 ### 7. How does CloudFormation work in AWS?
 **A:**
 
 ```bash
 AWS CloudFormation is used for deploying AWS resources. In CloudFormation, we have to first create a template for a resource. A template is a simple text file that contains information about a stack on AWS. A stack is a collection of AWS resources that we want to deploy together in an AWS as a group. Once the template is ready and submitted to AWS, CloudFormation will create all the resources in the template. This helps in automation of building new environments in AWS.
 ```
+---
 ### 8. What is CICD in DevOps?
 **A:**
 
@@ -87,6 +95,7 @@ Continuous Integration (CI): In CI all the developer work is merged to the main 
 Continuous Delivery (CD): In CD, a software team plans to deliver software in short cycles. They perform development, testing and release in such a short time that incremental changes can be easily delivered to production.
 In CD, as a DevOps we create a repeatable deployment process that can help achieve the objective of Continuous Delivery.
 ```
+---
 ### 9. What are the best practices of Continuous Integration (CI)?
 **A:**
 
@@ -102,6 +111,7 @@ VII. Production like environment testing: In CI, we maintain a production like e
 VIII. Publish Build Results: We publish build results on a common site so that everyone can see these and take corrective actions.
 IX. Deployment Automation: The deployment process is automated to the extent that in a build process we can add the step of deploying the code to a test environment. In this test environment all the stakeholders can access and test the latest delivery.
 ```
+---
 ### 10. What are the benefits of Continuous Integration (CI)?
 **A:**
 
@@ -116,6 +126,7 @@ VI. Automated testing is one very useful side effect of implementing CI.
 VII. All the stakeholders including business partners can see the small changes deployed into the pre-production environment. This provides early feedback on the changes to software.
 VIII. Automated CI and testing generates metrics like code-coverage, code complexity that help in improving the development process.
 ```
+---
 ### 11. What are the options for security in Jenkins?
 **A:**
 
@@ -128,6 +139,7 @@ I. We can use Jenkins' own User Database.
 II. We can use LDAP plugin to integrate Jenkins with LDAP server.
 III. We can also setup Matrix based security on Jenkins.
 ```
+---
 ### 12. What are the main benefits of Ansible?
 **A:**
 
@@ -138,6 +150,7 @@ II. Automation: Ansible provides very good options for automation. With automati
 III. Large-scale: Ansible can be used in small as well as very large-scale organisations.
 IV. Simple DevOps: With Ansible, we can write automation in a human-readable language. This simplifies the task of DevOps.
 ```
+---
 ### 13. What are the main use cases of Ansible?
 **A:**
 
@@ -151,12 +164,14 @@ V. Compliance: Ansible helps in verifying an organisation's systems in compariso
 VI. Provisioning: We can provide new systems and resources to other users with Ansible.
 VII. Orchestration: Ansible can be used in orchestration of complex deployment in a simple way.
 ```
+---
 ### 14. What is Docker Hub?
 **A:**
 
 ```bash
 Docker Hub is a cloud-based registry. We can use Docker Hub to link code repositories. We can even build images and store them in Docker Hub. It also provides links to Docker Cloud to deploy the images to our hosts. Docker Hub is a central repository for container image discovery, distribution, change management, workflow automation and team collaboration.
 ```
+---
 ### 15. What is your favourite scripting language for DevOps?
 **A:**
 
@@ -167,12 +182,14 @@ II. Python: For complicated programming and large modules we use Python. We can 
 III. Groovy: This is a Java based scripting language. We need JVM installed in an environment to use Groovy. It is very powerful and it provides very powerful features.
 IV. Perl: This is another language that is very useful for text parsing. We use it in web applications.
 ```
+---
 ### 16. What is Multi-factor authentication?
 **A:**
 
 ```bash
 In security implementation, we use Multi-factor authentication (MFA). In MFA, a user is authenticated by multiple means before giving access to a resource or service. It is different from simple user/password based authentication. The most popular implementation of MFA is Two-factor authentication. In most of the organisations, we use username/password and an RSA token as two factors for authentication. With MFA, the system becomes more secure and it cannot be easily hacked.
 ```
+---
 ### 17. What is the use of Kubernetes?
 **A:**
 
@@ -181,6 +198,7 @@ We use Kubernetes for automation of large-scale deployment of Containerized appl
 It is an open source system based on concepts similar to Google's deployment process of millions of containers. It can be used on cloud, on-premise datacenter and hybrid infrastructure.
 In Kubernetes we can create a cluster of servers that are connected to work as a single unit. We can deploy a containerized application to all the servers in a cluster without specifying the machine name. We have to package applications in such a way that they do not depend on a specific host.
 ```
+---
 ### 18.what is the difference between conatiner and virtual mission ?
 **A:**
 
@@ -191,3 +209,4 @@ Container: Runs apps by sharing the host OS, so it is lightweight and fast.
 
 Key difference: VM = hardware virtualization, Container = OS-level virtualization.
 ```
+---
