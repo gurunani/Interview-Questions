@@ -181,3 +181,13 @@ We use Kubernetes for automation of large-scale deployment of Containerized appl
 It is an open source system based on concepts similar to Google's deployment process of millions of containers. It can be used on cloud, on-premise datacenter and hybrid infrastructure.
 In Kubernetes we can create a cluster of servers that are connected to work as a single unit. We can deploy a containerized application to all the servers in a cluster without specifying the machine name. We have to package applications in such a way that they do not depend on a specific host.
 ```
+### 18.what is the difference etween conatiner and virtual mission ?
+**A:**
+
+```bash
+Virtual Machine: Runs a full OS on virtual hardware, so it is heavy and slow.
+
+Container: Runs apps by sharing the host OS, so it is lightweight and fast.
+
+Key difference: VM = hardware virtualization, Container = OS-level virtualization.
+```
