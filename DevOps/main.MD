@@ -210,3 +210,39 @@ Container: Runs apps by sharing the host OS, so it is lightweight and fast.
 Key difference: VM = hardware virtualization, Container = OS-level virtualization.
 
 ---
+
+
+### 19. what are the main principles of devops
+
+**A:**
+
+The **main principles of DevOps** are often summarized as **CALMS**:
+
+1. **Culture** – Dev, Ops, QA work together with shared responsibility (no silos).
+2. **Automation** – Automate build, test, deploy, and infrastructure to reduce errors.
+3. **Lean** – Deliver small, frequent changes faster with minimal waste.
+4. **Measurement** – Track metrics like deployment frequency, failures, MTTR.
+5. **Sharing** – Share knowledge, tools, feedback, and learn from failures.
+
+👉 In one line: **DevOps = collaboration + automation + continuous improvement.**
+---
+
+### 20. What are the benifits of cloud computing?
+
+**A:**
+
+Cloud computing helps organizations save cost, scale quickly, deploy faster, and maintain high availability without managing physical infrastructure.
+
+Key Points:
+
+Cost-effective – pay only for used resources
+
+Scalable – auto scale based on demand
+
+Highly available – minimal downtime
+
+Fast deployment – resources in minutes
+
+Secure & reliable – built-in security and backups
+
+---
