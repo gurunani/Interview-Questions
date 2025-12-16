@@ -18,7 +18,7 @@ ls -la
 
 ```bash
 du -sh <folder-path>
-```
+```  
 
 ---
 
